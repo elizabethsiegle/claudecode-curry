@@ -12,6 +12,7 @@ Steph Curry narrates your Claude Code sessions. Every prompt, tool call, permiss
 
 ```bash
 git clone https://github.com/elizabethsiegle/claudecode-curry
+cd claudecode-curry
 python3 install.py
 ```
 
