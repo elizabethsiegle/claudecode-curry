@@ -1,0 +1,145 @@
+{
+  "_readme": [
+    "Customize every event below.",
+    "  sound    → path to .mp3 or .aiff (relative paths resolve from this directory)",
+    "  video_url→ YouTube or any URL — opened in your default browser",
+    "  messages → pool of strings; one is picked at random each time",
+    "  probability → 0.0–1.0 chance the alert fires at all (great for noisy events)",
+    "  enabled  → false to silence an event entirely",
+    "",
+    "Drop .mp3/.aiff files in the sounds/ folder and point sound keys at them.",
+    "Example: \"sound\": \"sounds/airball.mp3\"",
+    "Example: \"video_url\": \"https://www.youtube.com/watch?v=sGtGMB1gkYs\""
+  ],
+
+  "events": {
+
+    "UserPromptSubmit": {
+      "enabled": true,
+      "title": "🏀 Chef Curry",
+      "messages": [
+        "Chef Curry in the kitchen — cookin' something up 👨‍🍳",
+        "Steph caught the inbound. No defender in sight.",
+        "Ball is in Curry's hands. Uh oh.",
+        "30 feet from the basket... he's thinking about it 👀",
+        "The Splash Brother has entered the building 💦",
+        "Curry dribbles through his legs twice. Just vibing.",
+        "Warriors ball. Draymond yells something. Steph nods."
+      ],
+      "sound": "sounds/way_downtown.mp3",
+      "video_url": null
+    },
+
+    "PreToolUse_Write": {
+      "enabled": true,
+      "title": "🎯 Pulling Up",
+      "messages": [
+        "STEP BACK… pulling up from the logo! 🎯",
+        "30-footer with a hand in his face. He doesn't care.",
+        "Zero hesitation. That's criminal.",
+        "He's cooking with gas now 🔥",
+        "Launching the {tool}. This is not a drill.",
+        "Steph just casually rewrites the playbook ✍️"
+      ],
+      "sound": "/System/Library/Sounds/Tink.aiff",
+      "video_url": null
+    },
+
+    "PreToolUse_Bash": {
+      "enabled": true,
+      "title": "💨 Fast Break",
+      "messages": [
+        "Coast to coast — nothing can stop this man 💨",
+        "Running the fast break! Warriors ball!",
+        "Steph in transition. No one's catching him.",
+        "Full-court sprint, defender 10 feet behind 🏃",
+        "Shell command? Steph drops the hammer."
+      ],
+      "sound": "sounds/bob_fitzgerald.mp3",
+      "video_url": null
+    },
+
+    "PreToolUse_Read": {
+      "enabled": true,
+      "probability": 0.4,
+      "title": "📼 Scouting",
+      "messages": [
+        "Watching film on the opponent 📼",
+        "Scouting the defense before making a move",
+        "Curry reads the floor. He already knows where this is going.",
+        "Studying the playbook like it's Game 7"
+      ],
+      "sound": null,
+      "video_url": null
+    },
+
+    "PreToolUse_Web": {
+      "enabled": true,
+      "probability": 0.5,
+      "title": "🔭 Googling",
+      "messages": [
+        "Steph Googling: 'how to shoot 40% from half court' 🔭",
+        "Searching the web like he searches for open looks — relentlessly",
+        "Web search initiated. He's done his homework.",
+        "Google is Steph's second home. Stack Overflow is his third."
+      ],
+      "sound": null,
+      "video_url": null
+    },
+
+    "PreToolUse_Other": {
+      "enabled": true,
+      "probability": 0.3,
+      "title": "🏀 Tool Time",
+      "messages": [
+        "Curry makes a move you didn't see coming — {tool}",
+        "Using {tool}. Classic Curry improvisation.",
+        "Steph goes off-script. Again."
+      ],
+      "sound": null,
+      "video_url": null
+    },
+
+    "Notification_Permission": {
+      "enabled": true,
+      "title": "⏱️ TIMEOUT",
+      "messages": [
+        "TIMEOUT called! Ref needs a word with you 🛑",
+        "Draymond got T'd up again — your approval required 😬",
+        "Play is stopped. Coach is waiving you over 📋",
+        "The ref blew the whistle. Something needs your OK.",
+        "Technical foul incoming unless you intervene 🦺"
+      ],
+      "sound": "sounds/french_devil.mp3",
+      "video_url": "https://www.youtube.com/watch?v=1LqddcQfbl0"
+    },
+
+    "Notification": {
+      "enabled": true,
+      "title": "📣 Hey",
+      "messages": [
+        "Claude is waving at you from half court 👋",
+        "Something just happened. Steph noticed.",
+        "Claude taps the court floor respectfully 🙏"
+      ],
+      "sound": "/System/Library/Sounds/Pop.aiff",
+      "video_url": null
+    },
+
+    "Stop": {
+      "enabled": true,
+      "title": "🙏 Night Night",
+      "messages": [
+        "Night Night. 🙏 *tucks in keyboard*",
+        "Final buzzer sounds. That's a wrap. 🔔",
+        "73-9. See you tomorrow. 💪",
+        "Curry waves goodnight to the crowd 👋",
+        "Steph heads to the locker room. Another masterpiece.",
+        "Session over. Warriors win. As expected."
+      ],
+      "sound": "sounds/bang_bang.mp3",
+      "video_url": "https://youtu.be/zrmivtWEAeo?si=KiLBSNo8iaH29Wql&t=3"
+    }
+
+  }
+}
