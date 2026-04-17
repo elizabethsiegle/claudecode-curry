@@ -2,7 +2,7 @@
   "_readme": [
     "Customize every event below.",
     "  sound    → path to .mp3 or .aiff (relative paths resolve from this directory)",
-    "  video_url→ YouTube or any URL — opened in your default browser",
+    "  video_url→ YouTube or any URL — opened in default browser",
     "  messages → pool of strings; one is picked at random each time",
     "  probability → 0.0–1.0 chance the alert fires at all (great for noisy events)",
     "  enabled  → false to silence an event entirely",
@@ -16,15 +16,15 @@
 
     "UserPromptSubmit": {
       "enabled": true,
-      "title": "🏀 Chef Curry",
+      "title": "🏀 New Prompt",
       "messages": [
-        "Chef Curry in the kitchen — cookin' something up 👨‍🍳",
-        "Steph caught the inbound. No defender in sight.",
-        "Ball is in Curry's hands. Uh oh.",
-        "30 feet from the basket... he's thinking about it 👀",
-        "The Splash Brother has entered the building 💦",
-        "Curry dribbles through his legs twice. Just vibing.",
-        "Warriors ball. Draymond yells something. Steph nods."
+        "Prompt received. Steph at half court. Everyone already knows what happens next.",
+        "Context window loaded. 200,000 tokens on the shot clock. Let's go.",
+        "New possession. Curry dribbles off his own screen. The metaphor writes itself.",
+        "Ball in hand. Steph just read your entire codebase in 0.3 seconds. That's illegal.",
+        "Steph never gets tired. Your API bill might, though.",
+        "Prompt submitted. Curry calls his own play. Coach Kerr nods and steps back.",
+        "Another one. Steph Curry and Claude Code share one trait: they do not stop."
       ],
       "sound": "sounds/way_downtown.mp3",
       "video_url": null
@@ -32,14 +32,15 @@
 
     "PreToolUse_Write": {
       "enabled": true,
-      "title": "🎯 Pulling Up",
+      "title": "✍️ Rewriting the Playbook",
       "messages": [
-        "STEP BACK… pulling up from the logo! 🎯",
-        "30-footer with a hand in his face. He doesn't care.",
-        "Zero hesitation. That's criminal.",
-        "He's cooking with gas now 🔥",
-        "Launching the {tool}. This is not a drill.",
-        "Steph just casually rewrites the playbook ✍️"
+        "STEP BACK — Steph is rewriting your file from 40 feet. {tool} incoming.",
+        "Zero hesitation. Zero undo history. That's criminal.",
+        "He's not asking for a code review. He never does. {tool}.",
+        "Logo three. No safety net. Just vibes and {tool}.",
+        "Steph just edited your code without asking. Who does that? Exactly.",
+        "Pull-up jumper from the file system. Clean.",
+        "Writing. Not a draft. Not a sketch. Curry doesn't do those."
       ],
       "sound": "/System/Library/Sounds/Tink.aiff",
       "video_url": null
@@ -47,13 +48,15 @@
 
     "PreToolUse_Bash": {
       "enabled": true,
-      "title": "💨 Fast Break",
+      "title": "💨 Shell Break",
       "messages": [
-        "Coast to coast — nothing can stop this man 💨",
-        "Running the fast break! Warriors ball!",
-        "Steph in transition. No one's catching him.",
-        "Full-court sprint, defender 10 feet behind 🏃",
-        "Shell command? Steph drops the hammer."
+        "Terminal open. Steph says 'trust me' and hits Enter.",
+        "Fast break into the shell. Nobody asked if this was safe.",
+        "Bash: the one tool that can nuke your node_modules and win a championship.",
+        "Coast to coast. No dribble limit in the terminal.",
+        "Your file system sees Steph coming and starts sweating.",
+        "rm -rf vibes. (Probably fine. Probably.)",
+        "Steph in transition. The shell prompt never stood a chance."
       ],
       "sound": "sounds/bob_fitzgerald.mp3",
       "video_url": null
@@ -62,12 +65,13 @@
     "PreToolUse_Read": {
       "enabled": true,
       "probability": 0.4,
-      "title": "📼 Scouting",
+      "title": "📼 Watching Film",
       "messages": [
-        "Watching film on the opponent 📼",
-        "Scouting the defense before making a move",
-        "Curry reads the floor. He already knows where this is going.",
-        "Studying the playbook like it's Game 7"
+        "Scouting your codebase. Curry watches more film than any human should.",
+        "Reading files. Steph has seen this defense before. He already knows.",
+        "Globbing through the repo like it's OKC in overtime.",
+        "Grep active. Steph Curry has never not found what he was looking for.",
+        "Every token spent scouting saves three in execution. Classic Curry IQ."
       ],
       "sound": null,
       "video_url": null
@@ -76,12 +80,13 @@
     "PreToolUse_Web": {
       "enabled": true,
       "probability": 0.5,
-      "title": "🔭 Googling",
+      "title": "🌐 Beyond the Arc",
       "messages": [
-        "Steph Googling: 'how to shoot 40% from half court' 🔭",
-        "Searching the web like he searches for open looks — relentlessly",
-        "Web search initiated. He's done his homework.",
-        "Google is Steph's second home. Stack Overflow is his third."
+        "Reaching outside the context window for reinforcements.",
+        "Web search: Steph pulls up Stack Overflow from behind the logo.",
+        "Real-time data. Curry never plays without a scouting report.",
+        "Stepping outside the paint. The internet is also a three-point line.",
+        "The one honest moment: even Steph Curry has to Google something."
       ],
       "sound": null,
       "video_url": null
@@ -90,11 +95,12 @@
     "PreToolUse_Other": {
       "enabled": true,
       "probability": 0.3,
-      "title": "🏀 Tool Time",
+      "title": "🎲 Audible",
       "messages": [
-        "Curry makes a move you didn't see coming — {tool}",
-        "Using {tool}. Classic Curry improvisation.",
-        "Steph goes off-script. Again."
+        "Curry calls an audible. The playbook said {tool}. He's doing it anyway.",
+        "Off-script. Kerr confused. Play worked. {tool}.",
+        "This was not in the pre-game plan. Steph does not care: {tool}.",
+        "Improvisation. The rarest and most dangerous Curry move."
       ],
       "sound": null,
       "video_url": null
@@ -102,25 +108,26 @@
 
     "Notification_Permission": {
       "enabled": true,
-      "title": "⏱️ TIMEOUT",
+      "title": "🛑 HARD STOP",
       "messages": [
-        "TIMEOUT called! Ref needs a word with you 🛑",
-        "Draymond got T'd up again — your approval required 😬",
-        "Play is stopped. Coach is waiving you over 📋",
-        "The ref blew the whistle. Something needs your OK.",
-        "Technical foul incoming unless you intervene 🦺"
+        "Steph is holding the ball at the free throw line and staring at you. Say something.",
+        "Claude wants to do something you might regret. The ref is waiting.",
+        "Draymond is about to make a decision. Only you can stop this.",
+        "This is the play where Kerr draws it up and Claude goes off-script. Your call.",
+        "Flagrant foul incoming unless you weigh in. No timeouts left."
       ],
       "sound": "sounds/french_devil.mp3",
-      "video_url": "https://www.youtube.com/watch?v=1LqddcQfbl0"
+      "video_url": "https://x.com/i/status/2044903458088894779"
     },
 
     "Notification": {
       "enabled": true,
-      "title": "📣 Hey",
+      "title": "📣 Tap the Floor",
       "messages": [
-        "Claude is waving at you from half court 👋",
-        "Something just happened. Steph noticed.",
-        "Claude taps the court floor respectfully 🙏"
+        "Steph tapped the floor twice. That means he needs you.",
+        "Mid-possession update. Curry does not pause for nothing.",
+        "Something happened. Claude is making eye contact. This is rare.",
+        "FYI from half court. Filed under: worth knowing."
       ],
       "sound": "/System/Library/Sounds/Pop.aiff",
       "video_url": null
@@ -130,12 +137,11 @@
       "enabled": true,
       "title": "🙏 Night Night",
       "messages": [
-        "Night Night. 🙏 *tucks in keyboard*",
-        "Final buzzer sounds. That's a wrap. 🔔",
-        "73-9. See you tomorrow. 💪",
-        "Curry waves goodnight to the crowd 👋",
-        "Steph heads to the locker room. Another masterpiece.",
-        "Session over. Warriors win. As expected."
+        "Night night. Context window: closed. Cursor: still.",
+        "Final buzzer. Your code is probably better. Steph's stats: classified.",
+        "Curry walks off. 0 turnovers. 1 masterpiece. See you next prompt.",
+        "Session complete. Even Draymond looks impressed.",
+        "Tokens at rest. The play worked. It always works."
       ],
       "sound": "sounds/bang_bang.mp3",
       "video_url": "https://youtu.be/zrmivtWEAeo?si=KiLBSNo8iaH29Wql&t=3"
