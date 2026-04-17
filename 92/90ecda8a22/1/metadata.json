@@ -1,0 +1,73 @@
+{
+  "cli_version": "0.5.5",
+  "checkpoint_id": "9290ecda8a22",
+  "session_id": "f07a8b25-c2ef-4dcd-9e23-80fa45f94437",
+  "strategy": "manual-commit",
+  "created_at": "2026-04-17T20:03:25.008722Z",
+  "branch": "main",
+  "checkpoints_count": 4,
+  "files_touched": [
+    "curry.config.json"
+  ],
+  "agent": "Claude Code",
+  "model": "",
+  "turn_id": "284cc1ac45e7",
+  "token_usage": {
+    "input_tokens": 21,
+    "cache_creation_tokens": 21818,
+    "cache_read_tokens": 211169,
+    "output_tokens": 3210,
+    "api_call_count": 11
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-04-17T20:03:25.006103Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 53,
+    "total_committed": 0,
+    "total_lines_changed": 166,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 59,
+      "user_lines_removed": 53,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "curry.config.json": 59
+      },
+      "user_removed_per_file": {
+        "curry.config.json": 53
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 85,
+      "agent_lines_removed": 53
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 85,
+      "agent_lines_removed": 53
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 85,
+      "agent_lines_removed": 53
+    }
+  ]
+}

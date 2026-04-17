@@ -1,0 +1,16 @@
+<ide_opened_file>The user opened the file /Users/lsiegle/Desktop/demos/desktop-curry/curry.config.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+search the web for Steph curry's most recent stats. write a summary to steph_tonight.txt, then show me the file.
+
+---
+
+<ide_opened_file>The user opened the file /Users/lsiegle/Desktop/demos/desktop-curry/.claude/settings.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+if i were to explain how to configure different audio or video or events to play upon claude code event completion, how would you explain this file or the curry.config.json
+
+---
+
+<ide_opened_file>The user opened the file /Users/lsiegle/Desktop/demos/desktop-curry/.claude/settings.json in the IDE. This may or may not be related to the current task.</ide_opened_file>
+what does this have to do with Entire? I feel like someone could build this without Entire. And how does Claude know to look at curry.config.json
+
+---
+
+make a short script that explains what you've told me for the video. make it sound like me. keep it simple but educational
