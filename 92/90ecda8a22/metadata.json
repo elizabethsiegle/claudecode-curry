@@ -1,0 +1,25 @@
+{
+  "cli_version": "0.5.5",
+  "checkpoint_id": "9290ecda8a22",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 5,
+  "files_touched": [
+    "curry.config.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/92/90ecda8a22/0/metadata.json",
+      "transcript": "/92/90ecda8a22/0/full.jsonl",
+      "content_hash": "/92/90ecda8a22/0/content_hash.txt",
+      "prompt": "/92/90ecda8a22/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 3201,
+    "cache_creation_tokens": 489321,
+    "cache_read_tokens": 2883071,
+    "output_tokens": 39348,
+    "api_call_count": 60
+  }
+}
